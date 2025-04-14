@@ -1,6 +1,7 @@
 import { Viewer } from '@photo-sphere-viewer/core';
 import { GyroscopePlugin } from '@photo-sphere-viewer/gyroscope-plugin';
 import { CompassPlugin } from '@photo-sphere-viewer/compass-plugin';
+import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
 
 
 $(window).on("load", function () {
@@ -9,10 +10,11 @@ $(window).on("load", function () {
     const viewer = new Viewer({
         container: document.querySelector('#viewer'),
         panorama: 'img/habitacion1a.jpg',
-        navbar: 'caption,zoomRange,fullscreen',
+        //navbar: 'caption,zoomRange,fullscreen',
         plugins: [
             GyroscopePlugin,
-            CompassPlugin
+            CompassPlugin,
+            MarkersPlugin
         ],
     });
 
