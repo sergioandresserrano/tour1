@@ -3051,7 +3051,7 @@ var DEFAULTS = {
     description: "Description",
     download: "Download",
     fullscreen: "Fullscreen",
-    loading: "Loading...",
+    loading: "",
     menu: "Menu",
     close: "Close",
     twoFingers: "Use two fingers to navigate",
