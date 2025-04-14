@@ -10,7 +10,7 @@ $(window).on("load", function () {
     const viewer = new Viewer({
         container: document.querySelector('#viewer'),
         panorama: 'img/habitacion1a.jpg',
-        //navbar: 'caption,zoomRange,fullscreen',
+        navbar: 'caption,zoomRange,gyroscope,fullscreen',
         plugins: [
             GyroscopePlugin,
             CompassPlugin,
