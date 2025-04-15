@@ -8,3 +8,20 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.item-image {
+    width: 100%;
+}
+
+.item-text {
+    width: 80%;
+    padding: 20px;
+}
+
+.item-logo {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    width: 100px;
+    z-index: 10;
+}

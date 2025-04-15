@@ -243,7 +243,7 @@ var getConfig = utils.getConfigParser(
     resetPitch: false,
     navigationColor: "rgba(255, 255, 255, 0.5)",
     hotspots: [],
-    hotspotColor: "rgba(0, 0, 0, 0.5)",
+    hotspotColor: "rgba(255, 255, 255, 1)",
     className: null
   },
   {

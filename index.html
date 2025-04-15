@@ -7,14 +7,18 @@
     <title>Tour Virtual - Habitación</title>
     <link rel="stylesheet" href="js/photosphere.css" />
     <link rel="stylesheet" href="js/compass.css" />
+    <link rel="stylesheet" href="js/virtualtour.css" />
+    <link rel="stylesheet" href="js/gallery.css" />
     <link rel="stylesheet" href="js/markers.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
+    <img src="img/logo.png" class="item-logo">
+
     <div class="container">
-        <div id="viewer" style="width: 100vw; height: 85vh;"></div>
+        <div id="viewer" style="width: 100vw; height: 87vh;"></div>
     </div>
 
 
@@ -28,6 +32,8 @@
                 "@photo-sphere-viewer/core": "./js/photosphere.module.js",
                 "@photo-sphere-viewer/gyroscope-plugin": "./js/gyroscope.module.js",
                 "@photo-sphere-viewer/compass-plugin": "./js/compass.module.js",
+                "@photo-sphere-viewer/virtual-tour-plugin": "./js/virtualtour.module.js",
+                "@photo-sphere-viewer/gallery-plugin": "./js/galley.module.js",
                 "@photo-sphere-viewer/markers-plugin": "./js/markers.module.js"
             }
         }
