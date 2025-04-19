@@ -515,7 +515,9 @@
     color: #fff;
     font: 14px sans-serif;
     text-shadow: 0 0px #000;
-    padding: .5em 1em
+    padding: .5em 1em;
+    text-align: center;
+    font-weight: bold;
 }
 
 .psv-tooltip-arrow {
